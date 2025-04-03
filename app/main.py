@@ -14,7 +14,7 @@ app.include_router(auth.router)
 app.include_router(users.router)  # Add this line
 app.include_router(appointment.router)
 app.include_router(offline_appointment.router)
-app.include_router(sms.router)
+
 
 @app.get("/")
 def health_check():
